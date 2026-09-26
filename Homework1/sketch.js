@@ -13,8 +13,14 @@ let ice, ice2, ice3, ice4;
 function setup() {
   createCanvas(700, 1200);
   //
-  let cnv = createCanvas(700, 1200); // cnv 변수로 받기
-  cnv.style("width", "100%"); // 화면 너비에 맞춰 자동으로 줄어들게
+  let cnv = createCanvas(700, 1200);
+  cnv.style("width", "100%");
+  cnv.style("height", "100%");
+  cnv.style("max-width", "700px"); // 원본 크기보다 커지지 않게
+  cnv.style("max-height", "1200px");
+  cnv.style("width", "auto");
+  cnv.style("height", "auto");
+  cnv.style("display", "block");
   rectMode(CENTER);
   //Matter setting
   engine = Engine.create();
