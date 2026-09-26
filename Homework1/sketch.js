@@ -21,6 +21,7 @@ function setup() {
   cnv.style("width", "auto");
   cnv.style("height", "auto");
   cnv.style("display", "block");
+  cnv.style("transform", "scale(0.9)");
   rectMode(CENTER);
   //Matter setting
   engine = Engine.create();
