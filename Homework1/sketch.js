@@ -22,7 +22,7 @@ function setup() {
   cnv.style("height", "auto");
   cnv.style("display", "block");
   cnv.style("transform-origin", "top");
-  cnv.style("transform", "scale(0.9)");
+  cnv.style("transform", "scale(0.8)");
   rectMode(CENTER);
   //Matter setting
   engine = Engine.create();
