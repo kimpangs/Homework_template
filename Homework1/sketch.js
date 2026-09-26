@@ -12,6 +12,9 @@ let ice, ice2, ice3, ice4;
 
 function setup() {
   createCanvas(700, 1200);
+  //
+  let cnv = createCanvas(700, 1200); // cnv 변수로 받기
+  cnv.style("width", "100%"); // 화면 너비에 맞춰 자동으로 줄어들게
   rectMode(CENTER);
   //Matter setting
   engine = Engine.create();
